@@ -1,7 +1,5 @@
 var a=[];
-for(let i=0;i<10;i++){
-    a[i]=function () {
-        console.log(i);
-    }
+for(let i=0;i<3;i++){
+    let i ='abc';
+    console.log(i);
 }
-a[6]();
