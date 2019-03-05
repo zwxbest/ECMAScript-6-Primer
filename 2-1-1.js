@@ -1,7 +1,3 @@
-{
-    let a = 6;
-    var b =1;
+for(let i=0;i<10;i++){
 }
-
-console.log(a);//报错
-console.log(b);
+console.log(i);
