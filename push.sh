@@ -1,3 +1,4 @@
+#!/bin/bash
 set branch=$1
 echo $branch
 git checkout -b $branch
