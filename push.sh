@@ -1,4 +1,5 @@
 set branch=$1
+echo $1
 git checkout -b $branch
 git checkout $branch
 git add -A
