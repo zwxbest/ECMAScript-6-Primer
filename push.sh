@@ -1,6 +1,5 @@
 #!/bin/bash
-set branch="$1"
-echo branch is $branch
+branch=$1
 git checkout -b $branch
 git checkout $branch
 git add -A
