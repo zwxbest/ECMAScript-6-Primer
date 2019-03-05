@@ -1,5 +1,5 @@
 #!/bin/bash
-set branch=$1
+set branch="$1"
 echo branch is $branch
 git checkout -b $branch
 git checkout $branch
